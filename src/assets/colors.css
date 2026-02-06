@@ -1,0 +1,13 @@
+:root {
+  --color-sidebar: #23272B;
+  --color-sidebar-active: #1976D2;
+  --color-sidebar-text: #FFFFFF;
+  --color-sidebar-muted: #B0B0B0;
+  --color-background: #F5F6FA;
+  --color-card: #FFFFFF;
+  --color-accent: #1976D2;
+  --color-accent-light: #E3F2FD;
+  --color-border: #E0E0E0;
+  --color-task-blue: #1976D2;
+  --color-task-gray: #B0B0B0;
+}
