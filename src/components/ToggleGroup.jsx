@@ -6,16 +6,18 @@ const ToggleGroup = ({
 }) => {
   const variants = {
     default: {
-      button: (isActive) => `p-2 transition cursor-pointer ${
-        isActive ? "bg-blue-600 text-white" : "hover:bg-gray-100"
-      }`,
-      container: "flex items-center rounded-md border border-gray-300 overflow-hidden"
+      button: (isActive) => `
+        h-10 w-10 flex items-center justify-center transition cursor-pointer
+        ${isActive ? "bg-blue-600 text-white" : "hover:bg-gray-100"}
+      `,
+      container: "flex items-center rounded-md border border-gray-300 overflow-hidden h-10"
     },
     compact: {
-      button: (isActive) => `p-1.5 transition cursor-pointer ${
-        isActive ? "bg-blue-600 text-white" : "hover:bg-gray-100"
-      }`,
-      container: "flex items-center gap-1"
+      button: (isActive) => `
+        h-10 w-10 flex items-center justify-center transition cursor-pointer
+        ${isActive ? "bg-blue-600 text-white" : "hover:bg-gray-100"}
+      `,
+      container: "flex items-center gap-1 h-10"
     }
   };
 
